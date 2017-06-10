@@ -40,7 +40,9 @@ Once inside there should be a whole series of files, we are interested in two of
 - **config.txt**
 - **cmdline.txt**
 
-**image of folder contents here**
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/5499946/27001446-2bb3b83a-4d98-11e7-8b54-f05f62ef39ca.png"/>
+</p>
 
 Open **config.txt** in a text editor and add the following line to the bottom of the file:
 ```
@@ -48,7 +50,9 @@ dtoverlay=dwc2
 ```
 and it should look something like this:
 
-**image of config.txt here**
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/5499946/27001443-2badac1a-4d98-11e7-8d0d-254d9313d537.png"/>
+</p>
 
 Save the file, close it and open **cmdline.txt** with a text editor. 
 Here locate **rootwait** and insert: 
@@ -57,7 +61,9 @@ modules-load=dwc2,g_ether
 ```
 with exactly once space before and after it, it should look like something like this:
 
-**image of cmdline.txt here**
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/5499946/27001444-2baf6cda-4d98-11e7-9ca3-fc8bbcf56b3e.png"/>
+</p>
 
 **Save the file and close it.** 
 
@@ -82,6 +88,10 @@ We are now ready to fire up the Pi.
 - Plug the Pi into your computer using a microUSB cable and make sure to use the **USB** port and not the **POWER** port
 - Wait for it to boot and then go to System Preferences > Network
 - You should see a "RNDIS/Ethernet Gadget" with a self assigned ip status (if it says Not Connected, give it a few more seconds)
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/5499946/27001438-1e52ad4a-4d98-11e7-8cc6-f27509cbc082.png"/>
+</p>
 
 Once it says self assigned ip status you should be able to SSH into the raspberry pi by using:
 ```
