@@ -207,4 +207,5 @@ There are a few things that you can do going forward:
 - Setup apache, php, node on the Pi
 - SSH remotely into the Pi by adding some Port Fowarding on port 22 into the Pi
 - Install AVS (Amazon Voice Service) on the Pi and create your very own Alexa
+
 Im going to try to turn these suggestions into links to more Tutorials in the near future.
