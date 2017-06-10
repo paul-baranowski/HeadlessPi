@@ -28,7 +28,9 @@ The setup here is relatively simple:
 - If only the microSD card is plugged in this should auto populate, if not select the card manually.
 - Hit that Flash button and go watch some Netflix while this completes
 
-https://user-images.githubusercontent.com/5499946/27001437-16589c44-4d98-11e7-9f6f-b473d30eb531.png
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/5499946/27001437-16589c44-4d98-11e7-9f6f-b473d30eb531.png"/>
+</p>
 
 ## Step 2
 
